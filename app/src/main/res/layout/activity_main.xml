@@ -26,27 +26,93 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="25dp"
             android:fontFamily="monospace"
             android:hint="Enter your city"
             android:padding="10dp"
-            android:textColor="@android:color/darker_gray"
+            android:textColor="#737171"
             android:textSize="20sp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="10dp"
             android:background="@android:color/transparent"
             android:fontFamily="sans-serif-smallcaps"
             android:paddingLeft="30dp"
-            android:paddingRight="30dp"
+            android:paddingRight="50dp"
             android:text="Enter"
             android:textColor="@android:color/black"
             android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:id="@+id/button"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude:  "
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:id="@+id/lat"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude:  "
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/lon"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/forcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#e8319e"
+            android:textSize="30sp"
             android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#e8319e"
+            android:textSize="15sp" />
 
     </LinearLayout>
 
