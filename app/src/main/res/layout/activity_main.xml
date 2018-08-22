@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_orange_light"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Get Weather"
+            android:textColor="@android:color/background_light"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:fontFamily="monospace"
+            android:hint="Enter your city"
+            android:padding="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Enter"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
